@@ -87,8 +87,6 @@ def rle_sgatie (fresh):
     for i in range(len(fresh)):
         if fresh[i] == char:
             count += 1
-        # elif count == 1:
-        #     result = result + "1" + char
         else:
             result = result + str(count) + char
             char = fresh[i]
